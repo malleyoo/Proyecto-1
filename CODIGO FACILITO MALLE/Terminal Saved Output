@@ -1,0 +1,48 @@
+Last login: Thu Dec 22 12:16:50 on ttys000
+victorvillanuevalopez@Victors-MacBook-Pro ~ % 
+cash  ~/.zshrc
+zsh: command not found: cash
+victorvillanuevalopez@Victors-MacBook-Pro ~ % 
+cash  ~/.zshrc
+zsh: command not found: cash
+victorvillanuevalopez@Victors-MacBook-Pro ~ % 
+vi ~/.zshrc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+export PATH="/usr/local/opt/php@8.0/bin:$PATH"
+export PATH="/Users/mysql-8.0.31-macos12-arm64/bin:$PATH"
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+-- INSERT --

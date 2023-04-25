@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+
+}
+
+/*para usar flexbox se necesita un container con hijos en este caso hay 4 hijos/ramas*/
+.container{ 
+    width: 450%;
+    height: 450px;
+    outline: 2px solid;
+    color: black;
+    margin: 60px auto;
+/* hay dos maneras de declarar flexbox,la primera como: display:flex y la segunda 
+display:inline-flex 
+Display flexsecomporta como un bloque, e inline-flex como elemento en linea recta  */
+    display: flex;
+    /*flex-direction: row;
+    flex-wrap:wrap; */
+
+/* los elementos se ponen a un lado del otro, flex-direection (FILA) define el eje principal
+el main axis, y el (eje secundario) cross axis (COLUMNA) sera perpendicular a éste, es decir no se define 
+es implicito */
+    flex-direction: row;
+    /*flex-flow: flexdirection wrap; */
+    /**flex-flow: column wrap;/
+
+/*flex wrap define el comportamiento de los flex items cuando su tamaño sumado revasa 
+el tamaño del menu en main access axis///  cuando colocas nowrap auxilia al flex para que se 
+ajuste a las necesidades de la tabla y se ajuste, wrap dice cuando los elementos sobrepasen el tamaño
+del contenedor se ajusta creando mas filas */
+/* justify-content: space-evenly; */
+ /*el espacio se reparte eventualmente a cada lado
+ justify-content: center los centra*/
+
+ /* flex- wrap: wrap- reverse: ; hace lo mismo que la propieda wrap solo que ahora comienza 
+ a desbordar los elementos al final del cross axis 
+ cplumnas: de izq a derecha 
+ flez-floow +/
+
+ /* justify content: ; eje principal ayuda en donde haya espacio odisponible  
+ ustify content: flex start los manda al principio, flex end manda al final
+ justify-content: space-around hace que todos los elementos se distribuyan al rededor*/
+
+}
+
+/*los elementos se ponen a un lado del otro comportamiento flex y comienzan desde el lado izq
+del contenedor, sino tienen un height definido ocuparan todo el alto de la pag*/
+.element{
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background-color: greenyellow;
+    color: white;
+    font-size: 2rem;
+}
+
+.element-1{
+    background-color: #0e0e0e; 
+
+
+}
+
+.element-2{
+    background-color: coral;
+}
+
+.element-3{
+    background-color: darkmagenta;
+}
+
+.element-4{
+ background-color: limegreen;
+}
+
+
+

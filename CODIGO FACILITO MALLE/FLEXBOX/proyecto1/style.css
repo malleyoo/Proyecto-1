@@ -1,0 +1,27 @@
+:root{
+    --violet: hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+
+    --font1: 'Open Sans', sans-serif;
+    --font2: 'Poppins', sans-serif;
+}
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--font1);
+
+}
+
+.hero{
+    background-color: var(--violet);
+
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
